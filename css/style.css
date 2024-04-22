@@ -5,7 +5,7 @@
 
     /* ============ COLORS ================ */
         /* DECIDE YOUR BROWSER THEME */
-    --hue-color:221 ;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
+    --hue-color:250 ;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
 
         /* HSL Color Mode */
     --first-color: hsl(var(--hue-color), 69%, 58%);
@@ -850,7 +850,7 @@ img{
   }
   .blog-slider__item.swiper-slide-active .blog-slider__img img {
 	opacity: 1;
-	transition-delay: 0.3s;
+	transition-delay: 0.5s;
   }
   .blog-slider__item.swiper-slide-active .blog-slider__content > * {
 	opacity: 1;
@@ -1596,6 +1596,7 @@ img{
       transform: translateX(80px);
     } */
   }
+
 
   /* Larger size Screen devices */
    @media screen and (min-width: 1024px){
